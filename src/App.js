@@ -7,7 +7,6 @@ export default function App() {
     <div>
       <NavBar/>
       <Header/>
-      <Header/>
     </div>
   );
 }
