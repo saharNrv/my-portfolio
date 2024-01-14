@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className='header min-h-screen pt-12  flex md:flex-row flex-col items-center' id='home'>
       <div className='flex-1 mx-4 flex items-center justify-center'>
-        <img src="sahar.jpg" alt="" className=' w-[400px] h-[400px] rounded-[40px]  object-cover ' />
+        <img src="girl.png" alt="" className=' w-[400px] h-[400px] rounded-[40px]  object-cover ' />
       </div>
       <div className='flex-1 '>
         <div className='md:text-left text-center mx-4'>

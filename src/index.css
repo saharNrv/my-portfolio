@@ -11,12 +11,8 @@ body{
     font-family: 'poppins';
     height: 100vh;
     /* background-color: #111111; */
-     /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
-     /* background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%); */
-     background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-     /* background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
-     background-blend-mode: screen;
-      */
+     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+   
 
 
 
