@@ -10,10 +10,8 @@
 body{
     font-family: 'poppins';
     height: 100vh;
-    /* background-color: #111111; */
-     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    /* background-color: #485563; */
+     background-color:#29323c ;
    
-
-
-
 }
+
