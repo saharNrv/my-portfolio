@@ -3,26 +3,37 @@ import './Header.css'
 
 export default function Header() {
   return (
-    <div className='header min-h-screen pt-12  flex md:flex-row flex-col items-center' id='home'>
-      <div className='flex-1 mx-4 flex items-center justify-center'>
-        <img src="/img/girl.png" alt="" className=' w-[400px] h-[400px] rounded-[40px]  object-cover ' />
+    <div className='header min-h-screen pt-20 flex items-center justify-center' id='home'>
+    <div className="container-grid">
+      <div className="row-grid">
+        <div className="col-12 col-xs-12 col-lg-6">
+        <div className='  flex items-center justify-center w-full'>
+        <img src="/img/hero-image.png" alt="" className='header-img  w-3/4 object-cover ' />
       </div>
-      <div className='flex-1 mx-4 '>
-        <div className='md:text-left text-center mx-4'>
-          <h1 className='md:text-5xl text-2xl md:leading-normal font-bold text-white'>
-            <span className='text-cyan-500 md:text-6xl text-5xl'>Hello!</span>
+        </div>
+        <div className="col-12 col-xs-12 col-lg-6">
+        <div className=' w-full h-full flex items-center lg:justify-start justify-center'>
+        <div className='lg:text-left text-center '>
+          <h1 className='md:text-4xl text-2xl md:leading-normal font-bold mt-4 text-white'>
+            <span className='text-white md:text-4xl text-4xl '>Hello,it's me</span>
             <br />
-            My Name is <span className='text-cyan-500'>Sahar Nourivand</span>
+            My Name is <span className='text-pink-600 '>Sahar Nourivand</span>
           </h1>
-          <h4 className='text-gray-600 md:text-2xl text-lg my-4'>FrontEnd Developer</h4>
-          <div className='flex justify-center md:justify-start gap-4 '>
-            <a href="https://t.me/SaharNourivand" className='text-gray-600 hover:text-cyan-500 text-2xl'><i class="fa-brands fa-telegram"></i></a>
-            <a href="instagram.com/saharNourivand" className='text-gray-600 hover:text-cyan-500 text-2xl'><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://github.com/saharNrv" className='text-gray-600 hover:text-cyan-500 text-2xl'><i class="fa-brands fa-github"></i></a>
+          <h4 className='text-gray-400 md:text-2xl text-lg my-4'>FrontEnd Developer</h4>
+          <div className='flex justify-center lg:justify-start gap-4 '>
+            <a href="https://t.me/SaharNourivand" className='text-gray-400 hover:text-pink-600 text-2xl'><i class="fa-brands fa-telegram"></i></a>
+            <a href="instagram.com/saharNourivand" className='text-gray-400 hover:text-pink-600 text-2xl'><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/saharNrv" className='text-gray-400 hover:text-pink-600 text-2xl'><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
       </div>
+        </div>
+      </div>
 
+   
+      
+
+    </div>
     </div>
   );
 }
