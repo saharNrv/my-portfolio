@@ -12,7 +12,7 @@ export default function Skills() {
   ]
 
   return (
-    <section id='skills' className='bg-gray-900 pt-10 pb-20'>
+    <section id='skills' className='bg-black md:pt-24 pt-10'>
       <div className="container-grid">
         <HeaderSection title={'My Skills'} desc={'My Knowledge'}/>
         <div className="row-grid">
@@ -21,12 +21,12 @@ export default function Skills() {
 
           <div className="col-12 col-xs-12 col-md-6 col-lg-3" key={skill.logo}>
           <div className='flex items-center justify-center '>
-            <div className='relative min-w-[1-rem] hover:shadow-3xl hover:scale-105 duration-700 cursor-pointer flex flex-col items-center justify-center  p-10 rounded-xl '>
+            <div className='relative min-w-[1-rem]  cursor-pointer flex flex-col items-center justify-center  p-10 rounded-xl '>
                 <div
                 style={{
                   background:`conic-gradient(#db2877 ${skill.count}%,#ddd ${skill.count}%)`
                 }}
-                 className=' w-32 h-32 flex items-center justify-center rounded-full text-white'>
+                 className=' w-32 h-32 flex items-center justify-center rounded-full text-white hover:shadow-3xl hover:scale-105 duration-700'>
                   <div className='w-28 h-28 bg-black rounded-full flex items-center justify-center text-6xl'>
                          <i class={`fa-brands ${skill.logo} `}></i>
 

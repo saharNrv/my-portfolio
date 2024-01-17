@@ -11,7 +11,7 @@ export default function About() {
   ]
 
   return (
-    <section className='py-10 text-white' id='about'>
+    <section className=' text-white' id='about'>
       <div className="container-grid">
         <div className='text-center mt-8'>
           <HeaderSection title={'About Me'} desc={'My Introduction'} />
