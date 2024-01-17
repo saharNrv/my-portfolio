@@ -1,18 +1,19 @@
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import './Projects.css'
-
-// import required modules
 import { Pagination } from 'swiper/modules';
 import HeaderSection from '../HeaderSection/HeaderSection';
 
 export default function Projects() {
+
+  const projects=[
+   { link:'#',name:'Coffee Shopping',img:'/img/coffee.avif',des:'The car site is made of html,css,js and for the data used json-server'},
+   { link:'#',name:'Buy Sweets',img:'/img/candy.webp',des:'The sweets site is made of html,css,js and for the data used json-server'},
+   { link:'#',name:'Dashboard',img:'/img/dashboard.png',des:'The dashboard is made react and node.js '},
+  ]
+
   return (
     <section className='md:pt-24 pt-10'>
       <div className="container-grid">
@@ -44,32 +45,19 @@ export default function Projects() {
               modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide className='bg-gray-900 p-8 border-2 border-pink-600 rounded-xl'>
-                <img src="/img/car.png" alt="" className='w-20 h-20 rounded-full object-cover'/>
-                <h3 className='text-pink-600 my-2 text-xl font-bold'>car shopping</h3>
-                <p className='text-white leading-6 mb-5 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea perspiciatis,  </p>
-                <a href="#">
-                  <button className='bg-pink-600 text-white p-2 rounded-lg'>Go to project</button>
-                </a>
-              </SwiperSlide>
-             
-              <SwiperSlide className='bg-gray-900 p-8 border-2 border-pink-600 rounded-xl'>
-                <img src="/img/car.png" alt="" className='w-20 h-20 rounded-full object-cover'/>
-                <h3 className='text-pink-600 my-2 text-xl font-bold'>car shopping</h3>
-                <p className='text-white leading-6 mb-5 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea perspiciatis,  </p>
-                <a href="#">
-                  <button className='bg-pink-600 text-white p-2 rounded-lg'>Go to project</button>
-                </a>
-              </SwiperSlide>
-             
-              <SwiperSlide className='bg-gray-900 p-8 border-2 border-pink-600 rounded-xl'>
-                <img src="/img/car.png" alt="" className='w-20 h-20 rounded-full object-cover'/>
-                <h3 className='text-pink-600 my-2 text-xl font-bold'>car shopping</h3>
-                <p className='text-white leading-6 mb-5 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea perspiciatis,  </p>
-                <a href="#">
-                  <button className='bg-pink-600 text-white p-2 rounded-lg'>Go to project</button>
-                </a>
-              </SwiperSlide>
+
+              {
+                projects.map(project=>(
+                  <SwiperSlide className='bg-gray-900 p-8 border-2 border-pink-600 rounded-xl'>
+                  <img src={project.img} alt="" className='w-20 h-20 rounded-full object-cover'/>
+                  <h3 className='text-pink-600 my-2 text-xl font-bold'>{project.name}</h3>
+                  <p className='text-white leading-6 mb-5 text-sm'>{project.des}</p>
+                  <a href={project.link}>
+                    <button className='bg-pink-600 text-white p-2 rounded-lg'>Go to project</button>
+                  </a>
+                </SwiperSlide>
+                ))
+                }
              
 
             </Swiper>
