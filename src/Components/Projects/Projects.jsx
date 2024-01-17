@@ -15,7 +15,7 @@ export default function Projects() {
   ]
 
   return (
-    <section className='md:pt-24 pt-10'>
+    <section className='h-full md:pt-40 pt-10' id='projects'>
       <div className="container-grid">
         <HeaderSection title={'My Projects'} desc={'Web Sites'} />
         <div className='mt-10 lg:px-48'>
@@ -48,12 +48,13 @@ export default function Projects() {
 
               {
                 projects.map(project=>(
-                  <SwiperSlide className='bg-gray-900 p-8 border-2 border-pink-600 rounded-xl'>
+                  <SwiperSlide className='bg-[#dadada] p-8 border-2 border-pink-600 rounded-xl'>
                   <img src={project.img} alt="" className='w-20 h-20 rounded-full object-cover'/>
                   <h3 className='text-pink-600 my-2 text-xl font-bold'>{project.name}</h3>
-                  <p className='text-white leading-6 mb-5 text-sm'>{project.des}</p>
+                  <p className='text-gray-500 leading-6 mb-5 text-sm'>{project.des}</p>
                   <a href={project.link}>
-                    <button className='bg-pink-600 text-white p-2 rounded-lg'>Go to project</button>
+                    <button className='bg-pink-600 text-white p-2 rounded-lg hover:bg-gradient-to-r
+                       from-fuchsia-500 to-pink-500  duration-700'>Go to project</button>
                   </a>
                 </SwiperSlide>
                 ))

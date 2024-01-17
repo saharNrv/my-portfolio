@@ -14,8 +14,8 @@ export default function Header() {
         <div className="col-12 col-xs-12 col-lg-6">
         <div className=' w-full h-full flex items-center lg:justify-start justify-center'>
         <div className='lg:text-left text-center '>
-          <h1 className='md:text-4xl text-2xl md:leading-normal font-bold mt-4 text-white'>
-            <span className='text-white md:text-4xl text-4xl '>Hello,it's me</span>
+          <h1 className='md:text-4xl text-2xl md:leading-normal font-bold mt-4 text-black'>
+            <span className='text-black md:text-5xl text-4xl '>Hello, it's me</span>
             <br />
             My Name is <span className='text-pink-600 '>Sahar Nourivand</span>
           </h1>
