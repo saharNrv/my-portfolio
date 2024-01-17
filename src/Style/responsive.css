@@ -10,6 +10,9 @@
     #row-revers{
         flex-direction: column-reverse;
     }
+    #contact-row{
+        flex-direction: column-reverse;
+    }
 }
 @media screen and (max-width: 768px) {
 }
