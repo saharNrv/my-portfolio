@@ -7,6 +7,7 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import AOS from 'aos';
+import ScrollUp from './Components/ScrollUp/ScrollUp';
 
 
 export default function App() {
@@ -16,7 +17,9 @@ export default function App() {
     })
   },[])
   return (
+    
     <div >
+      <ScrollUp/>
       <NavBar/>
       <Header/>
       <About/>
