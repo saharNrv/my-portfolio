@@ -1,0 +1,27 @@
+.skills-wrapper {
+  @apply flex items-center justify-center;
+}
+.skills-items {
+  @apply relative min-w-[1-rem]  cursor-pointer flex flex-col items-center justify-center  p-10 rounded-xl;
+}
+.skills-degree {
+  @apply w-32 h-32 flex items-center justify-center rounded-full text-white hover:shadow-3xl hover:scale-105 duration-700;
+}
+.html {
+  background: conic-gradient(#db2877 86%, #ccc 86%);
+}
+.css {
+  background: conic-gradient(#db2877 90%, #ccc 90%);
+}
+.js {
+  background: conic-gradient(#db2877 80%, #ccc 80%);
+}
+.react {
+  background: conic-gradient(#db2877 68%, #ccc 68%);
+}
+.skills-logos {
+  @apply w-28 h-28 bg-[#f0f0f0] text-pink-600 rounded-full flex items-center justify-center text-6xl;
+}
+.skills-count {
+  @apply text-pink-600 mt-4 text-xl;
+}

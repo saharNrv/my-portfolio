@@ -1,0 +1,9 @@
+.section-header{
+    @apply text-center mb-20
+}
+.section-title{
+   @apply text-4xl text-pink-600
+}
+.section-subtitle{
+    @apply text-gray-500 my-3 text-sm
+}

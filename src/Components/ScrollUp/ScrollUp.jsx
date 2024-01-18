@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './ScrollUp.css'
 
 export default function ScrollUp() {
 
@@ -21,7 +22,7 @@ export default function ScrollUp() {
 
     
         (isShowBtnUp)?(
-            <a href='#home' className='border-2 md:flex hidden text-pink-600 border-pink-600 flex items-center justify-center animate-bounce w-8 h-8 rounded-lg  right-4 bottom-4 fixed'>
+            <a href='#home' className='scroll-btn-up '>
 
             <i class="fa-solid fa-arrow-up"></i>  
         </a>

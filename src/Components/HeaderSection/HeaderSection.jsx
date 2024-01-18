@@ -1,10 +1,11 @@
 import React from 'react';
+import './HeaderSection.css'
 
 export default function HeaderSection({title,desc}) {
   return (
-    <div className='text-center my-10'>
-       <h3 className='text-4xl text-pink-600'>{title}</h3>
-            <p className='text-gray-400 my-3 text-sm'>{desc}</p>
+    <div className='section-header'>
+       <h3 className='section-title'>{title}</h3>
+            <p className='section-subtitle'>{desc}</p>
     </div>
   );
 }

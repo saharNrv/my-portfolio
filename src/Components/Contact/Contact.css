@@ -1,0 +1,28 @@
+.contact-socials-wrap {
+  @apply w-full flex flex-col gap-6 items-center justify-center lg:pl-24;
+}
+.contact-social {
+  @apply text-white w-full  p-4 flex  gap-4 items-center;
+}
+
+.contact-link{
+    @apply text-black  flex gap-6 items-center justify-center
+   
+}
+.contact-icon{
+    @apply text-3xl text-pink-600
+    
+}
+.contact-social-text{
+    @apply md:text-xl text-sm 
+}
+.contact-input{
+    @apply w-full p-3 rounded-lg outline-none bg-inherit shadow-3xl shadow-pink-300 placeholder:text-gray-500  border-2 border-pink-600
+}
+.contact-textarea{
+    @apply w-full border-2 border-pink-600 p-4 rounded-xl resize-none outline-none h-40 bg-inherit shadow-3xl shadow-pink-300 placeholder:text-gray-500 
+}
+.contact-btn{
+    @apply  bg-pink-600 p-2 rounded-lg  text-white hover:bg-gradient-to-r
+    from-fuchsia-500 to-pink-500  duration-700
+}

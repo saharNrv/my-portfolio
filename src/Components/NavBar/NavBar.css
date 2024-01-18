@@ -1,0 +1,36 @@
+.navbar{
+    @apply fixed w-full top-0 left-0 z-[999]
+}
+.navbar-sticky{
+    @apply bg-gray-500/20 backdrop-blur-md border-b-2 border-pink-600 text-gray-900
+}
+.navbar-wrapper{
+    @apply flex items-center justify-between
+}
+.navbar-logo{
+    @apply text-3xl  font-bold text-black
+}
+.navbar-links{
+    @apply text-gray-900 md:block hidden px-7 py-4 font-medium  rounded-bl-full
+}
+.navbar-links-sticky{
+    @apply md:bg-white/0 text-black
+}
+.navbar-links-notSticy{
+    @apply bg-inherit shadow shadow-pink-600
+}
+.menubar{
+    @apply text-4xl z-[999] md:hidden px-7 py-3 text-black cursor-pointer
+}
+.mobaile-menu{
+    @apply md:hidden text-white absolute h-screen w-2/3 top-0 duration-500 ease-in-out
+}
+.mobaile-menu-open{
+    @apply left-0
+}
+.mobaile-menu-close{
+    @apply left-[-100%]
+}
+.mobaile-list{
+    @apply bg-gray-500 h-full flex flex-col pt-7 gap-10 py-2
+}

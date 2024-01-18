@@ -1,16 +1,38 @@
-.header-img{
-    animation: imganime 4s ease-in-out infinite;
+.header {
+  @apply min-h-screen pt-20 flex items-center justify-center;
+}
+.header-cover {
+  @apply flex items-center justify-center w-full;
+}
+.header-img {
+  @apply w-3/4 object-cover;
+  animation: imganime 4s ease-in-out infinite;
+}
+.header-infos {
+  @apply w-full h-full flex  items-center lg:justify-start justify-center;
+}
+.header-title {
+  @apply md:text-4xl text-2xl md:leading-normal font-bold mt-4 text-black;
+}
+.header-subtitle {
+  @apply text-gray-400 md:text-2xl text-lg my-4;
 }
 
+.header-socials {
+  @apply flex justify-center lg:justify-start gap-4;
+}
+.header-social {
+  @apply text-gray-400 hover:text-pink-600 text-2xl;
+}
 
 @keyframes imganime {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-2.4REM);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

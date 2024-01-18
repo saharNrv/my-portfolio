@@ -1,9 +1,27 @@
-.swiper{
-   padding: 40px 0px !important;
+.swiper {
+  padding: 40px 0px !important;
 }
-.swiper-pagination-bullet{
-    border: 2px solid #ffff !important;
-    width: 15px !important;
-    height: 15px !important;
-    background-color: #db2877 !important;
+.swiper-pagination-bullet {
+  border: 2px solid #ffff !important;
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #db2877 !important;
+}
+
+.project-wrapper {
+  @apply h-[350px] flex flex-col items-start justify-center bg-[#e7e7e7] p-8 border-2 border-pink-600 rounded-xl;
+}
+.project-img {
+  @apply w-20 h-20 rounded-full object-cover;
+}
+.project-name {
+  @apply text-pink-600 my-2 text-xl font-bold;
+}
+.project-text {
+  @apply h-24 text-gray-500 leading-6 mb-5 text-sm;
+}
+
+.project-btn {
+  @apply bg-pink-600 text-white p-2 rounded-lg hover:bg-gradient-to-r
+    from-fuchsia-500 to-pink-500 transition duration-700;
 }
