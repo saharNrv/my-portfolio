@@ -33,7 +33,7 @@ export default function NavBar() {
               </h4>
             </div>
            {/* links */}
-            <div className={`${sticky ?'md:bg-white/0 text-black ':'bg-white shadow shadow-pink-600'} text-gray-900 md:block hidden px-7 py-4 font-medium  rounded-bl-full`}>
+            <div className={`${sticky ?'md:bg-white/0 text-black ':' bg-inherit shadow shadow-pink-600'} text-gray-900 md:block hidden px-7 py-4 font-medium  rounded-bl-full`}>
               <ul className='flex items-center gap-1 '>
                 {
                   menuLinks.map((item,index)=>(

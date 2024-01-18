@@ -6,13 +6,16 @@
     font-family: 'poppins';
     src: url('./fonts/Poppins-Regular.ttf') format('truetype');
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'poppins';
     height: 100vh;
     /* background-color:  #e9e0f6 ; */
     background-color: #f0f0f0;
-    scroll-behavior: smooth;
+   
    
 }
 

@@ -19,7 +19,8 @@ export default function Skills() {
           {
             skills.map(skill=>(
 
-          <div className="col-12 col-xs-12 col-md-6 col-lg-3" key={skill.logo}>
+          <div className="col-12 col-xs-12 col-md-6 col-lg-3" key={skill.logo} data-aos="fade-up"
+          >
           <div className='flex items-center justify-center '>
             <div className='relative min-w-[1-rem]  cursor-pointer flex flex-col items-center justify-center  p-10 rounded-xl '>
                 <div

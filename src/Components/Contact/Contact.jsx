@@ -10,7 +10,7 @@ export default function Contact() {
     <section className='h-full md:pt-40 pt-10' id='contact'>
       <div className="container-grid">
         <HeaderSection title={'Contact Me'} desc={'Get in touch'} />
-        <div className="row-grid " id='contact-row'>
+        <div className="row-grid lg:p-[100px] " id='contact-row'>
           <div className='col-12 col-xs-12 col-md-6 col-lg-6'>
             <form className=' md:py-2 md:px-8 p-2 flex flex-col gap-5'>
               <div className='input-wrrap relative'>
@@ -30,10 +30,10 @@ export default function Contact() {
             </form>
           </div>
           <div className="col-12 col-xs-12 col-md-6 col-lg-6">
-            <div className='w-full flex flex-col gap-6 items-center justify-center'>
-              <div className=' text-white w-full  p-4 flex  gap-4 items-center '>
+            <div className='w-full flex flex-col gap-6 items-center justify-center lg:pl-24'>
+              <div className=' text-white w-full  p-4 flex  gap-4 items-center  '>
 
-                <a href="https://nourivandsahar@gmail.com" className='text-black flex gap-6 items-center justify-center'>
+                <a href="https://nourivandsahar@gmail.com" className='text-black  flex gap-6 items-center justify-center'>
                   <span className='text-3xl text-pink-600'>
                     <i class="fa-solid fa-envelope"></i>
 
@@ -45,9 +45,9 @@ export default function Contact() {
 
               </div>
              
-              <div className=' text-white w-full  p-4 flex  gap-4 items-center '>
+              <div className=' text-white w-full  p-4 flex  gap-4 items-center  '>
 
-                <a href="https://t.me/SaharNourivand" className='text-black flex gap-6 items-center justify-center'>
+                <a href="https://t.me/SaharNourivand" className='text-black  flex gap-6 items-center justify-center'>
                   <span className='text-3xl text-pink-600'>
                   <i class="fa-brands fa-telegram"></i>
 
@@ -61,7 +61,7 @@ export default function Contact() {
              
               <div className=' text-white w-full  p-4 flex  gap-4 items-center '>
 
-                <a href="https://whatsapp.com" className='text-black flex gap-6 items-center justify-center'>
+                <a href="https://whatsapp.com" className='text-black  flex gap-6 items-center justify-center'>
                   <span className='text-3xl text-pink-600'>
                   <i className="fa-brands fa-whatsapp "></i>
 

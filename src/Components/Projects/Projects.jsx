@@ -9,9 +9,10 @@ import HeaderSection from '../HeaderSection/HeaderSection';
 export default function Projects() {
 
   const projects=[
-   { link:'#',name:'Coffee Shopping',img:'/img/coffee.avif',des:'The car site is made of html,css,js and for the data used json-server'},
-   { link:'#',name:'Buy Sweets',img:'/img/candy.webp',des:'The sweets site is made of html,css,js and for the data used json-server'},
+   { link:'#',name:'Coffee Shopping',img:'/img/coffee.avif',des:'The coffee shopping site is made of html,css,js and for the data used json-server'},
+   { link:'https://sahar-buysweet.netlify.app/',name:'Buy Sweets',img:'/img/candy.webp',des:'The cms sweets site is made of html,css,js and for the data used json-server'},
    { link:'#',name:'Dashboard',img:'/img/dashboard.png',des:'The dashboard is made react and node.js '},
+   { link:'#',name:'Car Shopping',img:'/img/car.png',des:'The car site is made react '},
   ]
 
   return (
