@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css'
 import HeaderSection from '../HeaderSection/HeaderSection';
+import Input from '../Form/Input';
 
 export default function Contact() {
 
@@ -14,16 +15,30 @@ export default function Contact() {
           <div className='col-12 col-xs-12 col-md-6 col-lg-6'>
             <form className=' md:py-2 md:px-8 p-2 flex flex-col gap-5'>
               <div className='input-wrrap '>
-                <input type="text" placeholder='enter your name' className='contact-input' />
+                <Input 
+                  element='input'
+                  type='text'
+                  placeholder='enter your name'
+                  className='contact-input'
+                />
               </div>
 
               <div className='input-wrrap '>
-                <input type="email" placeholder='enter your email' className='contact-input' />
+                <Input
+                 element='input'
+                 type='email' 
+                 placeholder='enter your email'
+                 className='contact-input'
+                 />
               </div>
 
               <div className='input-wrrap'>
-                <textarea placeholder='enter your message'
-                  className='contact-textarea'></textarea>
+                <Input
+                  element='textarea'
+                  placeholder='enter your message'
+                  className='contact-textarea'
+                />
+               
               </div>
               <button className='contact-btn'>Send Message</button>
             </form>

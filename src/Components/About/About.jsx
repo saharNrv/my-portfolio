@@ -32,7 +32,10 @@ export default function About() {
             <div className=' flex justify-center items-center'>
               <div className='flex items-center justify-center w-2/4 relative '>
                 <img src="/img/about-image.png" alt="about image" className='about-img ' />
+                
+
                 <span className='circle'></span>
+                
 
               </div>
             </div>
