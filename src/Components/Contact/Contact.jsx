@@ -13,7 +13,7 @@ export default function Contact() {
         <HeaderSection title={'Contact Me'} desc={'Get in touch'} />
         <div className="row-grid lg:px-[100px] " id='contact-row'>
           <div className='col-12 col-xs-12 col-md-6 col-lg-6'>
-            <form className=' md:py-2 md:px-8 p-2 flex flex-col gap-5'>
+            <form className='form'>
               <div className='input-wrrap '>
                 <Input 
                   element='input'
@@ -44,7 +44,7 @@ export default function Contact() {
             </form>
           </div>
           <div className="col-12 col-xs-12 col-md-6 col-lg-6">
-            <div className='contact-socials-wrap'>
+            <div className='contact-socials-wrap '>
               <div className=' contact-social '>
 
                 <a href="https://nourivandsahar@gmail.com" className='contact-link'>

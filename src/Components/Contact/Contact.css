@@ -16,6 +16,9 @@
 .contact-social-text{
     @apply md:text-xl text-sm 
 }
+.form{
+    @apply  md:py-2 md:px-8 p-2 flex flex-col gap-5
+}
 .contact-input{
     @apply w-full p-3 rounded-lg outline-none bg-inherit shadow-3xl shadow-pink-300 placeholder:text-gray-500  border-2 border-pink-600
 }
